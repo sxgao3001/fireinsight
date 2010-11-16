@@ -1,0 +1,3 @@
+Fireinsight is a JavaScript visualization tool. It consists of two components:
+1. An HTTP proxy application called HttpProxy, implemented in Java (using Apache HttpCommon/HttpClient libraries), that uses Rhino to parse incoming JavaScript files and add analysis code to be run in the client browser.
+2. A Firebug plugin called FirebugPlugin which visualizes the analysis code within a Firebug panel. 
