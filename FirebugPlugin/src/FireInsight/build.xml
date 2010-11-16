@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project name="FireInsight" default="xpi" basedir=".">
+	<property file="build.properties"/>
+	<property name="debug.dir" value="${fox.extensions.dir}/FireInsight@blastradius.com" />
+	
+	<!-- TARGET: Create XPI file and save in build dir -->
+	<target name="xpi" depends="clean" description="Create XPI file and save in build dir">
+		<mkdir dir="build" />
+		<delete failonerror="false" includeemptydirs="true">
+			<fileset dir="build" includes="**/*" />	
+		</delete>
+		<zip destfile="build/FireInsight.xpi"
+			basedir="."
+			excludes="build* **/.DS_Store"
+		/>
+	</target>
+	
+	<!-- TARGET: Clean the build directory -->
+	<target name="clean">
+		<delete dir="build">
+		</delete>
+	</target>
+</project>

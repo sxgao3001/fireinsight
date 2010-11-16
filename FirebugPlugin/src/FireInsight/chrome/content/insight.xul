@@ -1,0 +1,44 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="chrome://insight/skin/fireInsight.css"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <!-- 
+    <script type="application/x-javascript">
+		// Sets the basepath for the library if not in same directory
+		var mxBasePath = 'http://www.mxgraph.com/demo/mxgraph/src/';
+    </script>
+	<script src="http://www.mxgraph.com/demo/mxgraph/src/js/mxclient.php?version=1.0.1.0&amp;key=hnZ%2BfqesgHuiliI%3D" type="application/x-javascript" />
+	<script src="chrome://insight/content/test.js" type="application/x-javascript" />
+    -->
+    <!-- Fire Insight: Firebug Extension -->
+	<script src="chrome://insight/content/fireInsight.js" type="application/x-javascript" />
+	<script src="chrome://insight/content/panels.js" type="application/x-javascript" />
+	<!-- Local copy of JSON Lib (http://www.json.org/json2.js) -->
+	<script src="chrome://insight/content/jsonlib.js" type="application/x-javascript" />
+
+	<commandset id="mainCommandSet">
+		<command id="cmd_button1FireInsight" oncommand="Firebug.FireInsight.button1()" />
+		<command id="cmd_button2FireInsight" oncommand="Firebug.FireInsight.button2()" />
+	</commandset>
+
+	<toolbar id="fbToolbar" align="center">
+		<hbox id="fbToolbarInner" insertbefore="fbDetachButton" flex="1"
+			align="center">
+			<hbox id="fbFireInsightButtons" insertafter="fbNetButtons">
+
+				<toolbarseparator />
+				<toolbarbutton label="Button 1" class="toolbar-text-button"
+					tooltiptext="Button 1" command="cmd_button1FireInsight" />
+
+				<toolbarbutton label="Button 2" class="toolbar-text-button"
+					tooltiptext="Button 2" command="cmd_button2FireInsight" />
+				<toolbarseparator />
+
+			</hbox>
+		</hbox>
+	</toolbar>
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="strings_tracing" src="chrome://insight/locale/fireinsight.properties" />
+	</stringbundleset>
+</overlay>

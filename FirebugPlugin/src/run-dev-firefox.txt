@@ -1,0 +1,7 @@
+# You can run two instances of Firefox using separate profiles if you start Firefox with the -no-remote parameter. 
+# For example, the following command will run your development profile whether "normal" Firefox is already running or not. 
+# (Assuming your development profile is called "dev"):
+
+start "" "%ProgramFiles%\Mozilla Firefox\firefox.exe" -no-remote -P dev
+
+# To run Firefox with default profile just run "firefox" or "firefox -P default", as usual.

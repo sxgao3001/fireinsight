@@ -1,0 +1,737 @@
+0     DEBUG [main] org.scriptinsight.util.Props - Props: envPropFileName : null
+0     DEBUG [main] org.scriptinsight.util.Props - Props: Using default env file: /props/env/dev/scriptinsight.properties
+0     DEBUG [main] org.scriptinsight.util.Props - Props: Request for property [ProxyServerPort=2554]
+0     DEBUG [main] org.scriptinsight.util.Props - Props: Request for property [TaskPoolSize=5]
+125   INFO  [main] org.scriptinsight.proxy.RequestListenerThread - Serving with pool size: 5
+125   INFO  [main] org.scriptinsight.proxy.InsightProxyMain -  -------------- Script Insight Proxy -------------- 
+125   INFO  [Thread-0] org.scriptinsight.proxy.RequestListenerThread - Listening on port 2554
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/index.jsp]
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<         Response: HTTP/1.1 200 OK
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<         Response: HttpEntity Type: org.apache.http.entity.BasicHttpEntity
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11219 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSP/2.1
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Content-Type: text/html;charset=UTF-8
+11235 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/tag.css]
+11297 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/css,*/*;q=0.1
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:21 GMT
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"1140-1240293441187"
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"1140-1240293441187"
+11297 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/dojo.js]
+11297 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: */*
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11297 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/styles.css]
+11313 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/css,*/*;q=0.1
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:21 GMT
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"1892-1240293441187"
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"1892-1240293441187"
+11313 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/rss/rssbar.js]
+11375 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: */*
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11375 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/rss/rssbar.css]
+11391 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/css,*/*;q=0.1
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11391 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/banner_logo.gif]
+11422 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"7641-1240293440828"
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"7641-1240293440828"
+11422 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/FisheyeList.js]
+11422 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11422 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/__package__.js]
+11438 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11438 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/xml/Parse.js]
+11453 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11453 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/Widget.js]
+11469 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11469 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/lang/declare.js]
+11485 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11485 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/ns.js]
+11500 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11500 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/Manager.js]
+11516 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11516 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11532 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11532 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11532 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11532 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/a11y.js]
+11547 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11547 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/uri/__package__.js]
+11563 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11563 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/Parse.js]
+11578 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11578 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/DomWidget.js]
+11610 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11610 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11625 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/HtmlWidget.js]
+11641 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11641 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/html/util.js]
+11672 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11672 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/lfx/toggle.js]
+11688 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11688 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/html/selection.js]
+11703 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11703 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/splash.gif]
+11735 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:21 GMT
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"36097-1240293441109"
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"36097-1240293441109"
+11735 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/images/ad-sdk.jpg]
+11735 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"245260-1240293440812"
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"245260-1240293440812"
+11735 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/images/ad-jre.jpg]
+11766 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"2428-1240293440812"
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"2428-1240293440812"
+11766 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/images/ad-netbeans.jpg]
+11766 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"2340-1240293440812"
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"2340-1240293440812"
+11766 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/templates/images/tab_close.gif]
+11813 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11813 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/static/META-INF/dojo/bpcatalog/src/widget/templates/FisheyeList.css]
+11828 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Fri, 12 Jun 2009 06:23:22 GMT
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11828 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/dogs_icon.gif]
+11891 ERROR [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"4110-1240293440906"
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"4110-1240293440906"
+11891 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/cats_icon.gif]
+11907 ERROR [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"3476-1240293440890"
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"3476-1240293440890"
+11907 INFO  [pool-1-thread-1] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/birds_icon.gif]
+11938 ERROR [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"3671-1240293440843"
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"3671-1240293440843"
+11938 INFO  [pool-1-thread-5] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/reptiles_icon.gif]
+11953 ERROR [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:21 GMT
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"3516-1240293441078"
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"3516-1240293441078"
+11953 INFO  [pool-1-thread-2] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/images/fish_icon.gif]
+11969 ERROR [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - <<        No response entity found!
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept: image/png,image/*;q=0.8,*/*;q=0.5
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-Modified-Since: Tue, 21 Apr 2009 05:57:20 GMT
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               If-None-Match: W/"3615-1240293440921"
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                ETag: W/"3615-1240293440921"
+11969 INFO  [pool-1-thread-4] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >> Request [http://gaotop:8080/petstore/faces/dynamic/bpui_rssfeedhandler/getRssfeed?style=json&itemCount=4&url=https://blueprints.dev.java.net/servlets/ProjectRSS?type=news]
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<         Response: HTTP/1.1 200 OK
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - <<         Response: HttpEntity Type: org.apache.http.entity.BasicHttpEntity
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Request Headers: 
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Host: gaotop:8080
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Language: en-us,en;q=0.5
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Encoding: gzip,deflate
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Keep-Alive: 300
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Proxy-Connection: keep-alive
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Referer: http://gaotop:8080/petstore/faces/index.jsp
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cookie: JSESSIONID=3535ffa1233638dff4f61ca741ec
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Cache-Control: max-age=0
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                               Connection: Keep-Alive
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler - >>               Response Headers: 
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: Servlet/2.5
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Server: Sun GlassFish Enterprise Server v2.1
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                X-Powered-By: JSF/1.2
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Content-Type: text/plain;charset=utf-8
+11985 INFO  [pool-1-thread-3] org.scriptinsight.proxy.ProxyHandler -                                Date: Fri, 12 Jun 2009 07:23:31 GMT

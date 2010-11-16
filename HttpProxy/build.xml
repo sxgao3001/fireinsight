@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<project name="FireInsight" default="build" basedir=".">
+	<description>
+        Build file for FireInsight HTTP Proxy
+    </description>
+
+	<!-- Read properties from file -->
+	<property file="build.properties" />
+
+	<!-- Set global properties for this build -->
+	<property name="src" location="src" />
+	<property name="build" location="build" />
+	<property name="data" location="data" />
+	<property name="lib.dir" location="lib" />
+	<property name="props.dir" location="src/props" />
+	<property name="main.class" value="org.fireinsight.proxy.InsightProxyMain" />
+
+	<!-- Set classpath for FireInsight HTTP Proxy library dependencies -->
+	<path id="build.class.path">
+		<fileset dir="${lib.dir}" includes="**/*.jar" />
+	</path>
+
+	<manifestclasspath property="manifest.class.path" jarfile="${lib.dir}/FireInsightProxy.jar">
+		<classpath refid="build.class.path" />
+	</manifestclasspath>
+
+	<!-- TARGET: Clean the build and data directories -->
+	<target name="clean" description="Clean the build and data folders">
+		<delete dir="${build}" />
+		<delete includeemptydirs="true">
+			<fileset dir="${data}" includes="**/*" />
+		</delete>
+	</target>
+
+	<!-- TARGET: Clean the JAR file -->
+	<target name="clean.jar">
+		<delete file="${lib.dir}/FireInsightProxy.jar" />
+	</target>
+
+	<!-- TARGET: Call all clean targets -->
+	<target name="clean.all" depends="clean, clean.jar" />
+
+	<!-- TARGET: Initialize build process by creating necessary folders -->
+	<target name="init" depends="clean.all" description="Create all necessary folders">
+		<mkdir dir="${build}" />
+	</target>
+
+	<!-- TARGET: Compile all relevant classes for FireInsight HTTP Proxy -->
+	<target name="compile" depends="init" description="Compile classes for FireInsight HTTP Proxy">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" classpathref="build.class.path" />
+		<copy todir="${build}/props">
+			<fileset dir="${props.dir}" />
+		</copy>
+		<copy todir="${build}" file="${src}/log4j.properties" />
+	</target>
+
+	<!-- TARGET: Create JAR file continain classes from FireInsight HTTP Proxy -->
+	<target name="build" depends="compile" description="Compile classes for FireInsight HTTP Proxy">
+		<jar destfile="${lib.dir}/FireInsightProxy.jar" basedir="${build}">
+			<manifest>
+				<!-- Who is building this jar? -->
+				<attribute name="Built-By" value="${user.name}" />
+				<!-- Information about the program itself -->
+				<attribute name="Implementation-Title" value="FireInsight" />
+				<attribute name="Implementation-Version" value="1.0.0" />
+				<!-- Specify application's entry point -->
+				<attribute name="Main-Class" value="${main.class}" />
+				<!-- Specify application's classpath -->
+				<attribute name="Class-Path" value="${manifest.class.path}" />
+				<!-- details -->
+				<section name="${main.class}">
+					<attribute name="Sealed" value="false" />
+				</section>
+			</manifest>
+		</jar>
+	</target>
+</project>

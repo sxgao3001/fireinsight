@@ -1,0 +1,34 @@
+
+-----------------------------
+Trace Module (traceModule.js) 
+-----------------------------
+
+1. Firebug.TraceOptionsController 
+	- Used to load all DBG_* tags from the preferences file (/firebug/defaults/preferences/firebug.js)
+	- DBG_* tags are displayed in the FBTrace window and allows use to toggle debug statements on/off
+	
+2. Firebug.TraceModule 
+	- extends Firebug.Module
+	- contains some logic for the FBTrace panel (more like window, since it exists separate from the main Firebug display)
+	
+3. Firebug.TraceModule.CommonBaseUI
+	- 
+	- called from TraceConsole object within traceConsole.js
+	
+4. Firebug.TraceModule.PanelTemplate
+	- domplate object
+	- outer shell of FBTrace window, includes
+	- Functions:
+		* onClickTab: function(event)
+		* selectTabByName: function(parentNode, tabName) 
+		* selectTab: function(tab)
+
+5. Firebug.TraceModule.MessageTemplate
+	- domplate object
+	- meat of the display stuff for each message sent to FBTrace window
+
+6. 
+
+7. 
+
+8. 

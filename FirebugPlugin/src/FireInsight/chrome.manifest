@@ -1,0 +1,4 @@
+content insight chrome/content/ xpcnativewrappers=no
+locale	insight	en-US		chrome/locale/en-US/
+skin    insight  classic/1.0 chrome/skin/classic/
+overlay chrome://firebug/content/firebugOverlay.xul         chrome://insight/content/insight.xul
